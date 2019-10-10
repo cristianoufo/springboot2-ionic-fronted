@@ -12,4 +12,9 @@ export class HomePage {
 
   }
 
+  login(){
+   // push empilha as paginas como em um app mobile
+   // this.navCtrl.push('CategoriasPage');
+   this.navCtrl.setRoot('CategoriasPage');
+  }
 }
